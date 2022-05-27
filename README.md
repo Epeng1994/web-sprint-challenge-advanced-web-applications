@@ -84,3 +84,19 @@ You must also also test the Spinner component in this module:
 ## MVP Short Explanation
 
 ❗ ALL TESTS MUST PASS
+
+{headers:{authorization:token}} needed
+state for username, password, disabled for submit creds
+
+state for article title, text, topic
+map for articles state, api call
+disabled for submit, api post on submit create article
+
+edit, api put for id selected
+article delete/edit, on delete api delete for id, edit set current form to id values on submit, put
+
+logout, returns token set inactive
+
+
+
+
